@@ -10,7 +10,6 @@ import {
   css,
   gearXpert,
   project2,
-  
   project3,
   mysql,
   express,
@@ -41,7 +40,7 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  
+
   {
     id: "contact",
     title: "Contact",
@@ -114,6 +113,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  { name: "vercel", icon: logo },
 ];
 
 const experiences = [
@@ -177,7 +177,6 @@ const projects = [
         name: "Javascript",
         color: "pink-text-gradient",
       },
-      
     ],
     image: project2,
     source_code_link: "https://github.com/piyush89986",
